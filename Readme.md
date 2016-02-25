@@ -1,7 +1,8 @@
-1- Télécharger Java SE developpement Kit 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+# Installation environnement ionic 
+### 1. TÃ©lÃ©charger Java SE developpement Kit 
+â‹…â‹…* http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 2- installer jdk 
-3- Télécharger android sdk 
+3- TÃ©lÃ©charger android sdk 
 http://developer.android.com/sdk/index.html#Other
 4- installer sdk 
 copier Dans votre variable d'environnement PATH 
@@ -18,9 +19,6 @@ npm install -g cordova ionic
      pour android : ionic platform add android
      pour ios ; ionic platform add ios
  9-2 build 
-     ionic build anroid (Apk non signé)
+     ionic build anroid (Apk non signÃ©)
      ionic build android -- release (Apk mode non debug) ensuite 
      ionic build ios (project.xcodeproject) ensuite on build une Ipa (besoin de compte developpeur IOS)
-  
-
-
