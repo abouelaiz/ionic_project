@@ -1,17 +1,17 @@
 ## Installation environnement ionic 
 1. Télécharger et installer Java SE developpement Kit 
-... http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html.
+...http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html.
 2. Télécharger et installer  android sdk 
-... http://developer.android.com/sdk/index.html#Other
-⋅⋅⋅ lors de l'installation il faut  copier install location  par exemple pour moi c'etait "C:\Users\IAB3491.VISEO\AppData\Local\Android\android-sdk\"
+...http://developer.android.com/sdk/index.html#Other
+⋅⋅⋅lors de l'installation il faut  copier install location  par exemple pour moi c'etait "C:\Users\IAB3491.VISEO\AppData\Local\Android\android-sdk\"
 ... ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/install.PNG "Logo Title Text 1")
 
 ⋅⋅⋅ ensuite vous concatener \platform-tools a votre location vous devez avoir a la fin vous aurez quelque chose comme 
-⋅⋅⋅ "C:\Users\IAB3491.VISEO\AppData\Local\Android\android-sdk\platform-tools"
+⋅⋅⋅"C:\Users\IAB3491.VISEO\AppData\Local\Android\android-sdk\platform-tools"
 
-copier Dans votre variable d'environnement PATH 
-5- Installer node
-https://nodejs.org/en/
+⋅⋅⋅copier Dans votre variable d'environnement PATH 
+5. Installer node
+⋅⋅⋅https://nodejs.org/en/
 6- installer cordova et ionic 
 npm install -g cordova ionic
 7- dans votre repertoir du projet 
