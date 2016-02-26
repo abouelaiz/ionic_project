@@ -35,19 +35,32 @@
      ionic start Garagiste blank
     ```
    ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/start.PNG "Logo Title Text 1")
+   
+   la structure de notre projet 
+   
+      ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/start.PNG "Logo Title Text 1")
+    * Platforms : ce répértoire contiendra le build de nos projet ios et android (APK et XcodeProject).
+    * Plugins   : c'est dans ce repertoire que cordova stocke les plugins que nous ajoutons à notre projet.
+    * SCSS      : c'est ici où nous allons stocké nos fichiers .Scss.
+    * WWW :      en gros c'est notre fameux répértoire app c'est le répertoire où nous ecrivons tous fichiers sources  JS/HTML/CSS ....
+    * ressources:c'est dans ce répértoire où on stocke  tous les resoources nécessaire pour le build comme les icones,  les splashscrens ...
 5. Pour simuler notre application dans le navigateur 
 
    ```cmd
     ionic serve
     ```
-    une autre commande utilisé pour simulé dans le navigateur
+    une autre commande utilisé pour simulé dans le navigateur et qui nous donne une idée à quoi ressemblerai notre app sur Android et IOS
    ```cmd
     ionic serve --lab
     ```
     
     ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/lab.PNG "Logo Title Text 1")
-    
-     avec cette commande a quoi ressemblerai notre app sur Android et IOS 
+     
+     sinon pour ajouter un plugin a notre projet 
+      ```cmd
+    ionic plugin add {plugin}
+    ```
+     
 6. Enfin on est arrivé  au  build   de l'application  
 
    on commence par ajouter notre platforme cible
