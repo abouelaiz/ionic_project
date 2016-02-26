@@ -33,8 +33,9 @@
     //blank pour un projet vide 
      ionic start Garagiste blank
     ```
-   ![alt text](http://ionicframework.com/img/blog/start.png "Logo Title Text 1")
+   ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/start.PNG "Logo Title Text 1")
 5. Pour simuler notre application dans le navigateur 
+
    ```cmd
     ionic serve
     ```
@@ -43,11 +44,13 @@
     ionic serve --lab
     ```
     
-    ![alt text](http://ionicframework.com/img/blog/lab.png "Logo Title Text 1")
+    ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/lab.PNG"Logo Title Text 1")
     
      avec cette commande a quoi ressemblerai notre app sur Android et IOS 
 6. Enfin on est arrivé  au  build   de l'application  
+
    on commence par ajouter notre platforme cible
+
     ```cmd
     // pour android
     ionic platform add android
@@ -55,6 +58,7 @@
     ionic platform add ios
     ```
     esuite on build notre application pour la platform cible
+    
     ```cmd
     // pour android (on récupére un Apk non signé)
      ionic build anroid 
