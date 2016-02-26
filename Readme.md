@@ -29,6 +29,7 @@
      npm install -g cordova ionic
     ```
 4. créer votre projet ionic 
+
     ```javascript
     //blank pour un projet vide 
      ionic start Garagiste blank
@@ -44,7 +45,7 @@
     ionic serve --lab
     ```
     
-    ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/lab.PNG"Logo Title Text 1")
+    ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/lab.PNG "Logo Title Text 1")
     
      avec cette commande a quoi ressemblerai notre app sur Android et IOS 
 6. Enfin on est arrivé  au  build   de l'application  
@@ -58,7 +59,7 @@
     ionic platform add ios
     ```
     esuite on build notre application pour la platform cible
-    
+
     ```cmd
     // pour android (on récupére un Apk non signé)
      ionic build anroid 
