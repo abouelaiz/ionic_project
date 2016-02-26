@@ -12,7 +12,7 @@
     
     Pour windows :
     ```cmd
-     set ANDROID_HOME=C:\<installation location>\android-sdk-windows
+     set ANDROID_HOME=C:\Users\<user_name>\Library\Android\sdk
      set PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
     ```
      Pour Mac :
@@ -42,6 +42,9 @@
    ```cmd
     ionic serve --lab
     ```
+    
+    ![alt text](https://github.com/abouelaiz/ionic_project/blob/master/lab.PNG "Logo Title Text 1")
+    
    avec cette commande a quoi ressemblerai notre app sur Android et IOS 
 6. Enfin on est arrivé  au  build   de l'application  
    on commence par ajouter notre platforme cible
@@ -59,4 +62,4 @@
      ionic build IOS
     ```    
     
-      ionic build ios (project.xcodeproject) ensuite on build une Ipa (besoin de compte developpeur IOS)
+   
